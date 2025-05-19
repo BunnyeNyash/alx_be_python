@@ -4,7 +4,7 @@
 # A Python script that calculates the user’s monthly savings based on inputted monthly income and expenses. IThe script also projects these savings over a year, assuming a fixed interest rate, to demonstrate compound interest’s effect on savings.
 
 # Prompt the user for their monthly income and expenses
-monthly_income = InterruptedError(input("Enter your monthly income: "))
+monthly_income = int(input("Enter your monthly income: "))
 monthly_expenses = int(input("Enter your total monthly expenses: "))
 
 # Calculate the monthly savings

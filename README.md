@@ -16,3 +16,22 @@ This project is part of the ALX Backend Python curriculum, focusing on Python's 
 
 - **GitHub Repository**: [alx*be_python*](https://github.com/BunnyeNyash/alx_be_python.git)
 - **Directory**: `python_introduction`
+
+## Directory Structure
+
+```
+alx_be_python/
+├── python_introduction/
+|
+└── README.md                  # Project documentation
+```
+
+Each task has a corresponding test script in the `tests/` folder.
+
+## File Descriptions
+
+- **\_**:
+
+## Prerequisites
+
+- **Python**: Version 3.8 or higher

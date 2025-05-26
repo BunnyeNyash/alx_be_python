@@ -56,7 +56,7 @@ Great! Let's start the game.
 
 I'm thinking of a number between 1 and 100. Can you guess it?
 50
-Nope, your guess is a bit high. Give it another shot!
+Oops, your guess is a bit high. Give it another shot!
 40
 Nope, your guess is a bit low. Give it another shot!
 45
@@ -78,9 +78,9 @@ Nope, your guess is a bit low. Give it another shot!
 70
 Nope, your guess is a bit low. Give it another shot!
 90
-Nope, your guess is a bit high. Give it another shot!
+Oops, your guess is a bit high. Give it another shot!
 80
-Nope, your guess is a bit high. Give it another shot!
+Oops, your guess is a bit high. Give it another shot!
 75
 Congratulations, you guessed it!
 It took you 6 guesses to win the game

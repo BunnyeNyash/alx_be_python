@@ -45,14 +45,47 @@ number_guessing_game/
 
 ```bash
 python3 number_guessing.py
-I'm thinking of a number between 1 and 10. Can you guess it?
-5
+Welcome to the Number Guessing Game!
+
+Do you want to play? (Y/N): yes
+Please enter 'Y' for Yes or 'N' for No.
+Do you want to play? (Y/N): nope
+Please enter 'Y' for Yes or 'N' for No.
+Do you want to play? (Y/N): y
+Great! Let's start the game.
+
+I'm thinking of a number between 1 and 100. Can you guess it?
+50
+Nope, your guess is a bit high. Give it another shot!
+40
 Nope, your guess is a bit low. Give it another shot!
-7
-Congratulations, you guessed it! It took you 2 guesses.
-Play again? (yes/no)
-yes
-I'm thinking of a number between 1 and 10. Can you guess it?
+45
+Nope, your guess is a bit low. Give it another shot!
+47
+Nope, your guess is a bit low. Give it another shot!
+49
+Congratulations, you guessed it!
+It took you 5 guesses to win the game
+Play again? (yes/no): y
+Invalid input! Please enter yes or no.
+Play again? (yes/no): yes
+... (new game starts)
+I'm thinking of a number between 1 and 100. Can you guess it?
+1000
+Invalid input. Please enter a number between 1 and 100.
+50
+Nope, your guess is a bit low. Give it another shot!
+70
+Nope, your guess is a bit low. Give it another shot!
+90
+Nope, your guess is a bit high. Give it another shot!
+80
+Nope, your guess is a bit high. Give it another shot!
+75
+Congratulations, you guessed it!
+It took you 6 guesses to win the game
+Play again? (yes/no): no
+Okay, Thanks for playing. Byee.
 ...
 ```
 

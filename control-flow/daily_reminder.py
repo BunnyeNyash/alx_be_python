@@ -19,25 +19,22 @@ while True:
 # Process the Task Based on Priority and Time Sensitivity
 match priority:
     case "high":
-        reminder = f"'{task}' is a high priority task"
         if time_bound == "yes":
-            print(f"{reminder} that requires immediate attention today!")
+            print(f"Reminder: '{task}' is a high priority task that requires immediate attention today!")
         else:
-            print(f"{reminder}. You can complete it when you have time.")
+            print(f"Note: '{task}' is a high priority task. You can complete it when you have time.")
 
     case "medium":
-        reminder = f"'{task}' is a medium priority task"
         if time_bound == "yes":
-            print(f"{reminder} that should be addressed soon.")
+            print(f"Reminder: '{task}' is a medium priority task that should be addressed soon.")
         else:
-            print(f"{reminder}. Consider completing it when you can.")
+            print(f"Note: '{task}' is a medium priority task. Consider completing it when you can.")
 
     case "low":
-        reminder = f"'{task}' is a low priority task"
         if time_bound == "yes":
-            print(f"{reminder} that can be done at your convenience.")
+            print(f"Reminder: '{task}' is a low priority task that can be done at your convenience.")
         else:
-            print(f"{reminder}. You can do it whenever you have free time.")
+            print(f"Note: '{task}' is a low priority task. Consider completing it when you have free time.")
 
     case _:
         # This should never happen due to input validation

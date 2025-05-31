@@ -5,36 +5,40 @@
 # Objective: Create a simplified Python script that uses conditional statements, Match Case, and loops
 # to remind the user about a single, priority task for the day based on time sensitivity.
 
-# Prompt for a Single Task
-task = input("Enter your task: ").strip().capitalize()
-priority = input("Priority (high/medium/low): ").strip().lower()
-time_bound = input("Is it time-bound? (yes/no): ").strip().lower()
+while True:
+    # Prompt for a Single Task
+    task = input("Enter your task: ").strip().capitalize()
+    priority = input("Priority (high/medium/low): ").strip().lower()
+    time_bound = input("Is it time-bound? (yes/no): ").strip().lower()
+
+    if priority in {"high", "medium", "low"} and time_bound in {"yes", "no"}:
+        break
+    else:
+        print("Invalid input. Please try again with values (high, medium, low, yes, no) only.\n")
 
 # Process the Task Based on Priority and Time Sensitivity
 match priority:
     case "high":
         reminder = f"'{task}' is a high priority task"
         if time_bound == "yes":
-            reminder += " that requires immediate attention today!"
+            print(f"{reminder} that requires immediate attention today!")
         else:
-            reminder += ". You can complete it when you have time."
+            print(f"{reminder}. You can complete it when you have time.")
 
     case "medium":
         reminder = f"'{task}' is a medium priority task"
         if time_bound == "yes":
-            reminder += " that should be addressed soon."
+            print(f"{reminder} that should be addressed soon.")
         else:
-            reminder += ". Consider completing it when you can."
+            print(f"{reminder}. Consider completing it when you can.")
 
     case "low":
         reminder = f"'{task}' is a low priority task"
         if time_bound == "yes":
-            reminder += " that can be done at your convenience."
+            print(f"{reminder} that can be done at your convenience.")
         else:
-            reminder += ". You can do it whenever you have free time."
+            print(f"{reminder}. You can do it whenever you have free time.")
 
     case _:
-        reminder = "Invalid priority level. Please enter high, medium, or low."
-
-# Provide a Customized Reminder
-print(reminder)
+        # This should never happen due to input validation
+        print("Invalid priority level. Please enter high, medium, or low.")

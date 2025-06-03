@@ -9,6 +9,7 @@ Print the greeting message using the print function.
 """
 
 def greetings(name):
+ """Create a greeting message given a user's name"""
  print(f"Hello {name}")
 
 # usage

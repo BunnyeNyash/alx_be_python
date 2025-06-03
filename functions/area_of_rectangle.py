@@ -9,6 +9,7 @@ Use the return statement to return the calculated area.
 """
 
 def area_of_rectangle(length, width):
+  """Calculate the area of a rectangle given its length and width."""
   area = length * width
   return area
 

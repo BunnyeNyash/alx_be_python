@@ -25,5 +25,7 @@ def multiply(num1, num2):
 
 # Division
 def divide(num1, num2):
-  """Returns the division of two numbers."""
+  """Returns the division of two numbers. Raises an error if dividing by zero."""
+  if num2 == 0:
+    raise ValueError("Cannot divide by zero")
   return num1 / num2

@@ -1,7 +1,7 @@
 """
 Exercise 1: Creating and Using Modules
 
-Instructions:
+Instructions: 
 
 Create a custom Python module named calculator.py that contains functions for basic arithmetic operations (addition, subtraction, multiplication, division).
 Create functions add, subtract, multiply, and divide in the calculator.py module.

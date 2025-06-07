@@ -51,7 +51,7 @@ def main():
 
         if choice == '1':
             # Prompt for and add an item
-            item = input("What item do you want added? ").strip().capitalize()
+            item = input("Enter the item to add: ").strip().capitalize()
             if item:  # Check if item is not empty
                 shopping_list.append(item)
                 print(f"{item} added to the list!")
@@ -59,7 +59,7 @@ def main():
                 print("Item name cannot be empty.")
         elif choice == '2':
             # Prompt for and remove an item
-            item = input("What item do you want removed? ").strip().capitalize()
+            item = input("Enter the item to remove: ").strip().capitalize()
             if item in shopping_list:
                 shopping_list.remove(item)
                 print(f"{item} removed from the list!")

@@ -14,7 +14,7 @@ This project is part of the ALX Backend Python curriculum, introducing beginners
 
 ## Repository
 
-- **GitHub Repository**: [alx*be_python*](https://github.com/BunnyeNyash/alx_be_python.git)
+- **GitHub Repository**: [alx_be_python](https://github.com/BunnyeNyash/alx_be_python.git)
 - **Directory**: `python_introduction`
 
 ## Directory Structure

@@ -22,7 +22,7 @@ def display_current_datetime():
     # save the current date and time in current_date
     current_date = datetime.now()
   
-    # format and print the current date and time in 'YYYY-MM-DD HH:MM:SS'
+    # format and print the current date and time in 'YYYY-MM-DD HH:MM:SS' using strftime
     formatted_date = current_date.strftime("%Y-%m-%d %H:%M:%S")
     print(f"Current date and time: {formatted_date}")
 
@@ -57,8 +57,9 @@ def calculate_future_date():
         # Calculate the future date using timedelta
         delta = timedelta(days=number_of_days)
         future_date = current_date + delta
-        # Print the future date in 'YYYY-MM-DD' format
-        print(f"Future date: {future_date}")
+        # Print the future date in 'YYYY-MM-DD' format using strftime
+        formatted_date = future_date.strftime("%Y-%m-%d")
+        print(f"Future date: {formatted_date}")
     except ValueError:
         print("Invalid input. Please enter a valid integer (whole number).")
 

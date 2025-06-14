@@ -33,7 +33,7 @@ programming_paradigm/
 ├── simple_calculator.py                         # Provided class with basic arithmetic operations
 ├── test_simple_calculator.py                    # Contains unit tests for the provided SimpleCalculator class
 ├── library_management.py                        # Implements Book and Library classes for a library management system
-└── main.py (for library_management)             # Tests Book and Library classes
+└── main-L.py (for library_management)             # Tests Book and Library classes
 ```
 
 ## Tasks

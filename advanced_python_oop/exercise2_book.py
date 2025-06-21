@@ -15,6 +15,6 @@ class Book:
 
 # Test the Book class
 if __name__ == "__main__":
-    book = Book("Python 101", "John Doe", 200)
+    book = Book("Python 101", "Johny Boy", 200)
     print(book)  # Calls __str__
     print(repr(book))  # Calls __repr__

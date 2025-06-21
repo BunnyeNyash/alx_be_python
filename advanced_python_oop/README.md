@@ -31,6 +31,31 @@ advanced_python_oop/
    - **File**: `exercise3_animal_dog.py`
    - **Description**: Create a base class Animal with methods like eat and sleep. Create a subclass Dog that inherits from Animal and adds a method bark. Create instances of both classes and demonstrate method inheritance.
 
+## Expected Output:
+- **Exercise 1:**
+```
+Created Person: Alice, 30 years old
+Person details: Alice, 30
+Farewell, Alice!
+```
+
+
+- **Exercise 2:**
+```
+Python 101 by Johny Boy, 200 pages
+Book(title='Python 101', author='Johny Boy', pages=200)
+```
+
+
+- **Exercise 3:**
+```
+Generic is eating.
+Generic is sleeping.
+Buddy is eating.
+Buddy is sleeping.
+Buddy says Woof!
+```
+
 
 ## Notes
 - The destructor in Exercise 1 (`__del__`) may not always execute immediately due to Python's non-deterministic garbage collection. For critical resource management, consider using context managers or the `with` statement.

@@ -7,6 +7,7 @@ This project implements a Python function to demonstrate serialization and deser
 ```
 serialization_deserialization/
 ├── README.md
+├── data.json
 └── process_json.py
 ```
 
